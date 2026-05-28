@@ -16,6 +16,7 @@ public class InnerText {
 
         if (idx1 == -1 || idx2 == -1) {
             System.out.println(0);
+            return;
         }
 
         while (true) {
