@@ -1,3 +1,4 @@
+package ComSpec;
 import java.util.Scanner;
 
 class CPU2 {
