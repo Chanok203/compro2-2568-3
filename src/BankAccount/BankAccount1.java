@@ -63,7 +63,7 @@ public class BankAccount1 {
         String name = scan.nextLine();
         String code = scan.nextLine();
         double money = scan.nextDouble();
-        Account2 ac = new Account2(name, code, money);
+        Account3 ac = new Account3(name, code, money);
         int N = scan.nextInt();
         for (int i = 0; i < N; ++i) {
             int action = scan.nextInt();

@@ -57,12 +57,12 @@ class Account2 {
     }
 }
 
-class Saving extends Account2 {
+class Saving2 extends Account3 {
     String id; // null
     String tel; // null
     boolean promptPay;
 
-    Saving(String name, String code, double balance) {
+    Saving2(String name, String code, double balance) {
         super(name, code, balance);
         this.promptPay = false;
         System.out.println("Saving account");
@@ -106,7 +106,7 @@ public class BankAccount2 {
         String name = scan.nextLine();
         String code = scan.nextLine();
         double money = scan.nextDouble();
-        Saving ac = new Saving(name, code, money);
+        Saving2 ac = new Saving2(name, code, money);
         int N = scan.nextInt();
         for (int i = 0; i < N; ++i) {
             int action = scan.nextInt();
