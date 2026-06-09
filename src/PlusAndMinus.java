@@ -5,7 +5,8 @@ public class PlusAndMinus {
         
         int idx1 = text.lastIndexOf("-");
         int idx2 = text.lastIndexOf("+");
-        if (idx1 == idx2 /* -1 == -1 */) {
+        // * (idx1 == -1) && (idx2 == -1) 
+        if (idx1 == idx2 ) {
             return Integer.parseInt(text);
         }
 
