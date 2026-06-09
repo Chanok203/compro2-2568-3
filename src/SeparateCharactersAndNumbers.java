@@ -14,7 +14,7 @@ public class SeparateCharactersAndNumbers {
      */
     static String split(String msg) {
         int L = msg.length();
-        if (msg.length() == 1) {
+        if (L == 1) {
             return msg;
         }
         char first = msg.charAt(0);
