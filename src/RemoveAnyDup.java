@@ -1,7 +1,6 @@
 import java.util.Scanner;
 /*
-removeAnyDup = f
-
+let removeAnyDup = f
 f("MONOTONE")
 = f("MONOTON")       + E  (เก็บ E)
 = f("MONOTO")        + E  (ปล่อย N)
